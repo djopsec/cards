@@ -26,7 +26,11 @@ func newDeck() deck {
 }
 
 func (d deck) print() {
-	for _, card := range d{
-		fmt.Println(card)
+	for i, card := range d{
+		fmt.Println(i, card)
 	}
+}
+
+func deal(d deck, spreadSize int) (deck,deck) {
+	return d[:spreadSize], d[spreadSize:]
 }
