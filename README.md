@@ -3,7 +3,7 @@ Tarot Cards programmed using Go.
 
 # Run code: 
 
-$ go run main.go deck.go
+`$ go run main.go deck.go`
 
 # 3 Card Spread
 
